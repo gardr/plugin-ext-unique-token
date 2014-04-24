@@ -1,0 +1,22 @@
+{
+  "name": "gardr-unique-token-ext",
+  "version": "0.0.0",
+  "description": "Replaces the string GARDR_UNIQUE_ID with timestamp + position id to get unique URLs",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "Garðr",
+    "gardr",
+    "gardr-plugin",
+    "unique"
+  ],
+  "author": "FINN.no AS",
+  "license": "MIT",
+  "devDependencies": {
+    "gardr-core-plugin": "0.0.1",
+    "mocha": "^1.18.2",
+    "sinon": "^1.9.1"
+  }
+}
