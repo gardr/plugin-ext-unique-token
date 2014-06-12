@@ -1,6 +1,6 @@
 {
   "name": "gardr-plugin-ext-unique-token",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Replaces the string GARDR_UNIQUE_ID with timestamp + position id to get unique URLs",
   "main": "index.js",
   "scripts": {
