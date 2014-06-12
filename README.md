@@ -9,13 +9,13 @@ of the banner (which is different for each with the same name).
 
 ## Install
 
-    npm install gardr-unique-token-ext --save
+    npm install gardr-plugin-ext-unique-token --save
 
 ## Use
 In your ext bundle file:
 
     var gardrExt = require('gardr-ext');
-    var uniqueToken = require('gardr-unique-token-ext');
+    var uniqueToken = require('gardr-plugin-ext-unique-token');
 
     gardrExt.plugin(uniqueToken);
 
